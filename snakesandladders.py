@@ -16,7 +16,7 @@ import random
 
 pos = 0
 
-#This is a set of key:value pairs of all the snakes and ladders on the board.
+#Dictionary of key:value (starting:ending) pairs of all the snakes and ladders on the board.
 #if the player's pos is in the snl set, send them to the value of that key.
 #1,4,8,21,50,71,80 are ladders, they help the player to climb to a higher place.
 #32,36,48,62,88,95,97 are snakes, if stepped upon they swallow the player to a lower place.
